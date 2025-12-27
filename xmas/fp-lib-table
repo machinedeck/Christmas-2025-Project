@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "xmas_footprints")(type "KiCad")(uri "${KIPRJMOD}/xmas_footprints.pretty")(options "")(descr ""))
+  (lib (name "xmas_library")(type "KiCad")(uri "${KIPRJMOD}/xmas_library.pretty")(options "")(descr ""))
+  (lib (name "xmas_pcb")(type "KiCad")(uri "${KIPRJMOD}/xmas_pcb.pretty")(options "")(descr ""))
+)
