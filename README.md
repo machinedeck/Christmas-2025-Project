@@ -10,4 +10,4 @@ The 8x8 matrix tube **screen** flashes the `MERRY XMAS!` message moving from rig
 These are the materials I used for each part:
 
 **Screen**
-- 1088BS 8x8 matrix tube screen (with documentation in this (link)[https://www.topliteusa.com/uploadfile/2014/0825/A-1088BS.pdf]
+- 1088BS 8x8 matrix tube screen (with documentation in this [link](https://www.topliteusa.com/uploadfile/2014/0825/A-1088BS.pdf)
