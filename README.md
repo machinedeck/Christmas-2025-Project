@@ -51,3 +51,8 @@ Once all the cases have been performed, the LEDs just turn off. Pressing the but
 Before uploading the codes into the microcontrollers, make sure to install the **Arduino IDE**. Set the board to `Arduino UNO` nad make sure that there is a port connection. Once initialized, the following codes must be uploaded to two separate Arduino development boards:
 - **Screen:** `screen.ino`
 - **Lights:** `lights.ino`
+
+For `screen.ino`, I had to manually design the array for the `MERRY XMAS!` message in Excel, then convert them into a `.CSV` file to copy the array into Arduino code. All these information can be found in the following files: `screen_data.txt`, `screen_data.csv`, and `screen_data.xlsx`. Moreover, upon researching, it could be impossible to, say, individually control an array element of the matrix at a time. This is where I struggled the most because I initialized the matrix to a some array of 0's and 1's, but I ended up having one column all turned _ON_ when only a few has to be such. For this, **I had to resort to ChatGPT to seek help**. **I am highlighting this point to go back and understand this matter later on**, I just needed to finish it before Christmas.
+
+## Disclaimer
+I used ChatGPT mainly to debug my codes and/or seek help regarding their functionalities.
