@@ -33,4 +33,4 @@ These are the materials I used for each part:
   
 **Lights**
 <p align = "center"><img src = "images/lights.png"></p>
-<p align = "center">Breadboard connections for the four-LED system controlled by a switch in pull-up configuration. Schematics created from <a href = "www.tinkercad.com">www.tinkercad.com</a> using the circuits option.</p>
+<p align = "center">Breadboard connections for the four-LED system controlled by a switch in pull-up configuration. Schematics created from <a href = "https://www.tinkercad.com/">www.tinkercad.com</a> using the circuits option.</p>
