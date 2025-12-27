@@ -61,7 +61,7 @@ For both codes, I used switches to control their initialization, termination and
 ## Recommendation
 I noticed that for the **lights** part, I noticed some misalignments with the button press and the LED light configuration. I have not quantified this disparity nor possible delay but there could be some synchronization error, or the with the code itself. I noticed this especially in **Case 5**, where it is supposed to start from **Case 1**. However, there were instances where it just turned _OFF_ or does not start with **Case 1**. I suspect that it might have to do with the code because I once ran the script printing a defined "counter" value, and there was a little problem.
 
-Furthermore, I experienced some memory problem during the course of code development. Before this, I was not able to control the lights independently, which I resolved by using the `millis()` function to avoid blocking code with `delay()`. Now, with memory, I have realized how efficient programming is important to expedite process and save storage.
+Furthermore, I experienced some memory problem during the course of code development. Before this, I was not able to control the lights independently, which I resolved by using the [`millis()`](https://docs.arduino.cc/language-reference/en/functions/time/millis/) function to avoid blocking code with [`delay()`](https://docs.arduino.cc/language-reference/en/functions/time/delay/). Now, with memory, I have realized how efficient programming is important to expedite process and save storage.
 
 ## Disclaimer
 I used ChatGPT mainly to debug my codes and/or seek help regarding their functionalities.
