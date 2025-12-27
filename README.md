@@ -46,3 +46,8 @@ For this part, there are LED light array configuration as follows, controlled by
 - **Case 5:** Cases 1-4
 
 Once all the cases have been performed, the LEDs just turn off. Pressing the button reinitiates the cases.
+
+## Codes
+Before uploading the codes into the microcontrollers, make sure to install the **Arduino IDE**. Set the board to `Arduino UNO` nad make sure that there is a port connection. Once initialized, the following codes must be uploaded to two separate Arduino development boards:
+- **Screen:** `screen.ino`
+- **Lights:** `lights.ino`
