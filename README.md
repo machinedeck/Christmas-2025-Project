@@ -26,7 +26,11 @@ These are the materials I used for each part:
 - _Optional:_ One **9V battery**
 
 ## Schematic
-### Screen
+
+**Screen**
 <p align = "center"><img src = "images/screen.png"></p>
-### Lights
+<p align = "center">Schematic diagram of the wire connections of the 1088BS matrix to the Arduino UNO development board. I did not find any matrix design in Tinkercad so I just put its detailed schematics. This design was created from this website: <a href = "https://www.circuit-diagram.org/editor/">https://www.circuit-diagram.org/editor/</a>.</p>
+  
+**Lights**
 <p align = "center"><img src = "images/lights.png"></p>
+<p align = "center"></p>
