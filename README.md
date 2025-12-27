@@ -28,10 +28,21 @@ These are the materials I used for each part:
 
 ## Schematic
 
-**Screen**
+### Screen
 <p align = "center"><img src = "images/screen.png"></p>
-<p align = "center">Schematic diagram of the wire connections of the 1088BS matrix to the Arduino UNO development board controlled by a switch in pull-up setting. I did not find any matrix design in Tinkercad so I just put its detailed schematics as an array of LEDs. This design was created from this website: <a href = "https://www.circuit-diagram.org/editor/">https://www.circuit-diagram.org/editor/</a>.</p>
-  
-**Lights**
+<p align = "center"><b>Figure 1.</b> Schematic diagram of the wire connections of the 1088BS matrix to the Arduino UNO development board controlled by a switch in pull-up setting. I did not find any matrix design in Tinkercad so I just put its detailed schematics as an array of LEDs. This design was created from this website: <a href = "https://www.circuit-diagram.org/editor/">https://www.circuit-diagram.org/editor/</a>.</p>
+
+The general circuit design for the **screen** part is provided above. The matrix represented as an array of LEDs has also been documented as such in its datasheet [here](https://www.topliteusa.com/uploadfile/2014/0825/A-1088BS.pdf). It is important to note that the matrix does not have its own internal resistors as given in **Figure 1**. This is the reason that there are eight 1k&ohm;-resistors included in the materials. There is a switch included which turns the screen _ON_ and _OFF_. However, this is just the circuit connections, and its working function is defined by the Arduino code uploaded to the microcontroller.
+
+### Lights
 <p align = "center"><img src = "images/lights.png"></p>
-<p align = "center">Breadboard connections for the four-LED system controlled by a switch in pull-up configuration. Schematics created from <a href = "https://www.tinkercad.com/">https://www.tinkercad.com/</a> using the circuits option.</p>
+<p align = "center"><b>Figure 2.</b> Breadboard connections for the four-LED system controlled by a switch in pull-up configuration. Schematics created from <a href = "https://www.tinkercad.com/">https://www.tinkercad.com/</a> using the circuits option.</p>
+
+For this part, there are LED light array configuration as follows, controlled by pressin a button in a chronological order:
+- **Case 1:** Lights fade in then fade out
+- **Case 2:** Lights blink
+- **Case 3:** Light "pulse" going from one LED to the next. Goes to the first LED after it reaches the last LED.
+- **Case 4:** Two sets of LEDs alternate blinking
+- **Case 5:** Cases 1-4
+
+Once all the cases have been performed, the LEDs just turn off. Pressing the button reinitiates the cases.
