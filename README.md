@@ -5,3 +5,9 @@ In the Philippines :philippines:, Christmas is usually the most awaited and favo
 To start off, this project consisted of two parts: the _**screen**_ and the _**lights**_. Each part has its own microcontroller unit (MCU)&ndash;the **_ATmega328p_**&ndash;mounted on an Arduino UNO board. 
 
 The 8x8 matrix tube **screen** flashes the `MERRY XMAS!` message moving from right to left. On the other hand, the **lights** part consists of four LEDS (red, green, yellow and blue), which have five different lighting configurations with the last one being the combination of the first four in a consecutive manner. More details about them are explained in the later sections.
+
+## Materials
+These are the materials I used for each part:
+
+**Screen**
+- 1088BS 8x8 matrix tube screen (with documentation in this (link)[https://www.topliteusa.com/uploadfile/2014/0825/A-1088BS.pdf]
