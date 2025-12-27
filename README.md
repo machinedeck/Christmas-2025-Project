@@ -24,3 +24,9 @@ These are the materials I used for each part:
 - **Arduino UNO** development board with **ATmega328p** microncontroller
 - Wires
 - _Optional:_ One **9V battery**
+
+## Schematic
+### Screen
+<p align = "center"><img src = "images/screen.png"></p>
+### Lights
+<p align = "center"><img src = "images/lights.png"></p>
