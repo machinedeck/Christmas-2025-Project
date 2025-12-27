@@ -48,11 +48,15 @@ For this part, there are LED light array configuration as follows, controlled by
 Once all the cases have been performed, the LEDs just turn off. Pressing the button reinitiates the cases.
 
 ## Codes
-Before uploading the codes into the microcontrollers, make sure to install the **Arduino IDE**. Set the board to `Arduino UNO` nad make sure that there is a port connection. Once initialized, the following codes must be uploaded to two separate Arduino development boards:
+Before uploading the codes into the microcontrollers, make sure to install the **Arduino IDE**. Set the board to `Arduino UNO` (can be downloaded [here](https://www.arduino.cc/en/software/)) and make sure that there is a port connection. Once initialized, the following codes must be uploaded to two separate Arduino development boards:
 - **Screen:** `screen.ino`
 - **Lights:** `lights.ino`
 
 For `screen.ino`, I had to manually design the array for the `MERRY XMAS!` message in Excel, then convert them into a `.CSV` file to copy the array into Arduino code. All these information can be found in the following files: `screen_data.txt`, `screen_data.csv`, and `screen_data.xlsx`. Moreover, upon researching, it could be impossible to, say, individually control an array element of the matrix at a time. This is where I struggled the most because I initialized the matrix to a some array of 0's and 1's, but I ended up having one column all turned _ON_ when only a few has to be such. For this, **I had to resort to ChatGPT to seek help**. **I am highlighting this point to go back and understand this matter later on**, I just needed to finish it before Christmas.
+
+For `lights.ino`, I was mostly inspired by the lighting mechanism of the Christmas lights displayed outside my neighbor's house. That's where I got the idea of changing configurations, but allows the user to change it at will with a switch.
+
+For both codes, I used switches to control their initialization, termination and configurations by utilizing the `attachInterrupt`. This interrupt function is initialized in the setup.
 
 ## Disclaimer
 I used ChatGPT mainly to debug my codes and/or seek help regarding their functionalities.
