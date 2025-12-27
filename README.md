@@ -10,5 +10,17 @@ The 8x8 matrix tube **screen** flashes the `MERRY XMAS!` message moving from rig
 These are the materials I used for each part:
 
 **Screen**
-- `1088BS` 8x8 matrix tube screen (Documentation can be found in this [link](https://www.topliteusa.com/uploadfile/2014/0825/A-1088BS.pdf). Similar matrix can be used but _always refer to its datasheet_ because I did not use any driver to run it, and the pins have to be connected accordingly to flash what you intend to show.)
-- 8 1k&ohm;-resistors
+- **1088BS** 8x8 matrix tube screen (Documentation can be found in this [link](https://www.topliteusa.com/uploadfile/2014/0825/A-1088BS.pdf). Similar matrix can be used but _always refer to its datasheet_ because I did not use any driver to run it, and the pins have to be connected accordingly to flash what you intend to show.)
+- Eight **1k&ohm;-resistors**
+- One **tactile switch**
+- **Arduino UNO** development board with **ATmega328p** microncontroller
+- Wires
+- _Optional:_ One **9V battery**
+
+**Lights**
+- Four **LEDs** (can be any color, but I used red, green, yellow and blue)
+- Four **1k&ohm;-resistors**
+- One **tactile switch**
+- **Arduino UNO** development board with **ATmega328p** microncontroller
+- Wires
+- _Optional:_ One **9V battery**
